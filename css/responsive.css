@@ -1,0 +1,18 @@
+ /* Desktop Styles */
+ @media only screen and (max-width: 1024px) {
+    /* CSS styles for desktops */
+    
+  }
+
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 600px) and (max-width: 1023px) {
+    /* CSS styles for tablets */
+  }
+  
+  /* Mobile Styles */
+@media only screen and (max-width: 599px) {
+    /* CSS styles for mobile devices */
+  }
+  
+ 

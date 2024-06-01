@@ -1,0 +1,52 @@
+:root{
+    --main-color:rgb(4, 221, 178);
+    --gray-color:#888888;
+    --dark-color:#333;
+    --white-color:#fff;
+}
+
+
+:root{
+    --sec-left-right-padding:10rem;
+    --sec-top-bottom-padding:4rem;
+}
+
+
+:root{
+    --nav-height:5rem;
+}
+
+:root{
+    --header-font-size:4rem;
+    --des-font-size:1.5rem;
+    --box-shadow: 10px 10px 30px rgba(94, 94, 94, 0.3);
+}
+
+
+/* Desktop Styles */
+@media only screen and (max-width: 1024px) {
+    :root{
+        --sec-left-right-padding:5rem;
+        --sec-top-bottom-padding:4rem;
+    }
+    :root{
+        --header-font-size:3.5rem;
+        --des-font-size:1.3rem;
+        --box-shadow: 10px 10px 30px rgba(94, 94, 94, 0.3);
+    }
+    
+    
+  }
+
+
+  @media only screen and (max-width: 420px){
+    :root{
+        --sec-left-right-padding:2rem;
+        --sec-top-bottom-padding:2rem;
+    }
+    :root{
+        --header-font-size:2.5rem;
+        --des-font-size:1.2rem;
+        --box-shadow: 10px 10px 30px rgba(94, 94, 94, 0.3);
+    }
+  }
