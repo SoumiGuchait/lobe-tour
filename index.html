@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/variable.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/responsive.css">
     
     
 
@@ -28,15 +27,16 @@
                 <img src="assets/logo/25476191.png" alt="" >
             </div>
             <ul class="nav-menu">
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#examples">Examples</a></li>
-                <li><a href="#tour">Tour</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#help">Help</a></li>
+                <li style="--i:1;"><a href="#overview" >Overview</a></li>
+                <li style="--i:2;"><a href="#examples" >Examples</a></li>
+                <li style="--i:3;"><a href="#tour" >Tour</a></li>
+                <li style="--i:4;"><a href="#blog" >Blog</a></li>
+                <li style="--i:5;"><a href="#help" >Help</a></li>
+                <button type="button " class="btn ">Download</button>
             </ul>
            
-            <!-- <i class='bx bx-menu' id="menu-bar"></i> -->
-            <button type="button " class="btn ">Download</button>
+            <i class='bx bx-menu' id="menu-bar"></i>
+            <button type="button " class="btn responsive-hide-btn">Download</button>
         </nav>
     </header>
 
@@ -118,12 +118,13 @@
                 <a href=""><i class='bx bxl-youtube' ></i></a>
             </div>
         </section>
-
         <script>
             let navMenu = document.querySelector('.nav-menu');
-            document.querySelector('#menu-bar').onclick=() =>{
-            navMenu.classList.toggle('active');
-} 
+            document.querySelector('#menu-bar').addEventListener('click', function(){
+                navMenu.classList.toggle('active');
+                console.log('jhksasa')
+            })
         </script>
+         
 </body>
-</html>
+</html>  

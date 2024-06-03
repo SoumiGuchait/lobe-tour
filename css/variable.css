@@ -39,14 +39,24 @@
   }
 
 
-  @media only screen and (max-width: 420px){
+  @media only screen and (max-width: 412px){
     :root{
         --sec-left-right-padding:2rem;
         --sec-top-bottom-padding:2rem;
+        --nav-height:4rem;
     }
     :root{
-        --header-font-size:2.5rem;
+        --header-font-size:2.3rem;
         --des-font-size:1.2rem;
         --box-shadow: 10px 10px 30px rgba(94, 94, 94, 0.3);
+    }
+  }
+
+
+
+  @media only screen and (max-width:360px){
+    :root{
+        --header-font-size:2.2rem;
+        --sec-left-right-padding:1rem;
     }
   }
